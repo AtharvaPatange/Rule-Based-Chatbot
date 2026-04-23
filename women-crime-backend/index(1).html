@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solapur HeatGuard | Government Portal</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f4; margin: 0; }
+        .header { background: #d35400; color: white; padding: 20px; text-align: center; }
+        .container { max-width: 800px; margin: 50px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Solapur Heat Health Mission</h1>
+        <p>Official Heatwave Protection & Guidelines Portal</p>
+    </div>
+
+    <div class="container">
+        <h2>Welcome to Solapur HeatGuard</h2>
+        <p>In partnership with the Municipal Corporation, we are providing real-time heat alerts and safety tips. Use the chatbot in the bottom right corner for immediate assistance.</p>
+    </div>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Solapur_HeatGuard"
+  agent-id="357d4cf9-c850-4497-b7bc-1f8c6a046ccb"
+  language-code="en"
+></df-messenger>
+
+</body>
+</html>

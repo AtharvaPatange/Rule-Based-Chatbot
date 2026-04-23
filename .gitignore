@@ -1,0 +1,7 @@
+﻿**/node_modules/
+**/.env
+**/*.log
+women-crime-backend/solapur-heatguard-fdde-d44bfd41826a.json
+women-crime-backend/*.json
+!women-crime-backend/package.json
+!women-crime-backend/package-lock.json
